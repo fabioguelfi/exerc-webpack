@@ -1,3 +1,4 @@
-const logger = require('./logger');
+import Pessoa from './pessoa';
 
-logger.info(`usando o padrao commonJS`);
+const pessoa = new Pessoa(`Guelfi`)
+console.log(pessoa.toString())
